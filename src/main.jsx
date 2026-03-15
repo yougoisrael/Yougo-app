@@ -4,7 +4,7 @@
 import "./index.css";
 import { StrictMode } from "react";
 import { createRoot }  from "react-dom/client";
-import { HashRouter }  from "react-router-dom";   // HashRouter works on Vercel static SPA
+import { BrowserRouter } from "react-router-dom";   
 import App from "./App";
 
 // ── Register Service Worker (PWA) ──────────────────
@@ -18,8 +18,8 @@ if ("serviceWorker" in navigator && import.meta.env.PROD) {
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </StrictMode>
 );
