@@ -1,7 +1,7 @@
 {
-  "name": "Yougo — توصيل طعام",
+  "name": "Yougo — توصيל טעام",
   "short_name": "Yougo",
-  "description": "توصيل طعام سريع في منطقة الجليل",
+  "description": "Yougo - توصيل طعام سريع في منطقة الجليل",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -31,6 +31,16 @@
       "purpose": "maskable"
     }
   ],
-  "screenshots": [],
-  "shortcuts": []
+  "shortcuts": [
+    {
+      "name": "הזמן עכשיו",
+      "url": "/",
+      "description": "פתח את רשימת המסעדות"
+    },
+    {
+      "name": "ההזמנות שלי",
+      "url": "/#/orders",
+      "description": "צפה בהזמנות"
+    }
+  ]
 }
