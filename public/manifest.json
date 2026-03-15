@@ -1,4 +1,5 @@
 {
+  "id": "com.yougo.israel",
   "name": "Yougo — توصيל טעام",
   "short_name": "Yougo",
   "description": "Yougo - توصيل طعام سريع في منطقة الجليل",
@@ -29,6 +30,22 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "רשימת מסעדות"
+    },
+    {
+      "src": "/screenshot-2.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "מעקב הזמנה"
     }
   ],
   "shortcuts": [
